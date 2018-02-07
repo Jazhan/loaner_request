@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
     <sys_ui_form_sections form_id="7adec9fa9c4413007f449d2e205c8b62" sys_domain="global" table="x_snc_loaner_reque_loaner_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-02-06 22:59:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>983e5e7e9c8413007f449d2e205c8bfc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_loaner_reque_loaner_request" name="x_snc_loaner_reque_loaner_request" sys_domain="global" view="54ae0240d92332007f443e13655e7478">7adec9fa9c4413007f449d2e205c8b62</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_loaner_reque_loaner_request" sys_domain="global" view="54ae0240d92332007f443e13655e7478">c3dec9fa9c4413007f449d2e205c8b87</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-06 22:59:26</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_snc_loaner_reque_loaner_request</name>
             <roles/>
