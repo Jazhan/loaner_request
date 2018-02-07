@@ -18,12 +18,13 @@ while(gr.next()){
 	//  Add copied  REST Message Script BELOW this line
 	
 	 try { 
- var r = new sn_ws.RESTMessageV2('x_snc_loaner_reque.Get Lat Long', 'Default GET');
+ //var r = new sn_ws.RESTMessageV2('x_snc_loaner_reque.Get Lat Long', 'Default GET');
 gr.requested_for.city('addr', 'Santa Clara,');
+
 r.setStringParameterNoEscape('addr', 'Santa Clara, CA');
- r.setStringParameterNoEscape('lang', 'en');
- r.setStringParameterNoEscape('country', 'US');
- r.setStringParameterNoEscape('count', '1');
+r.setStringParameterNoEscape('lang', 'en');
+r.setStringParameterNoEscape('country', 'US');
+r.setStringParameterNoEscape('count', '1');
 
 //override authentication profile 
 //authentication type ='basic'/ 'oauth2'
@@ -62,14 +63,14 @@ catch(ex) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-02-07 18:04:07</sys_created_on>
         <sys_id>23d3228f9c4813007f449d2e205c8b34</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>x_snc_loaner_reque_Requested Locations</sys_name>
         <sys_package display_value="Loaner Request" source="x_snc_loaner_reque">e6a024e29c8013007f449d2e205c8b78</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Request">e6a024e29c8013007f449d2e205c8b78</sys_scope>
         <sys_update_name>cmn_map_page_23d3228f9c4813007f449d2e205c8b34</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-02-07 19:14:22</sys_updated_on>
+        <sys_updated_on>2018-02-07 20:59:47</sys_updated_on>
         <type>terrain</type>
         <type_selection>buttons</type_selection>
     </cmn_map_page>
