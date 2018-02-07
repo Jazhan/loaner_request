@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>4</order>
+        <question display_value="Depot">f20cb2c39c8813007f449d2e205c8b5d</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-07 19:48:21</sys_created_on>
+        <sys_id>b20cb2c39c8813007f449d2e205c8b6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Singapore</sys_name>
+        <sys_package display_value="Loaner Request" source="x_snc_loaner_reque">e6a024e29c8013007f449d2e205c8b78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">e6a024e29c8013007f449d2e205c8b78</sys_scope>
+        <sys_update_name>question_choice_b20cb2c39c8813007f449d2e205c8b6f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-07 19:48:21</sys_updated_on>
+        <text>Singapore</text>
+        <value>singapore</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=b20cb2c39c8813007f449d2e205c8b6f"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>b20cb2c39c8813007f449d2e205c8b6f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-07 19:48:21</sys_created_on>
+        <sys_id>f20cb2c39c8813007f449d2e205c8b70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-07 19:48:21</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>b20cb2c39c8813007f449d2e205c8b6f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-07 19:48:21</sys_created_on>
+        <sys_id>ba0cb2c39c8813007f449d2e205c8b6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-07 19:48:21</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

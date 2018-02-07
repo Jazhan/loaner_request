@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_snc_loaner_reque.mobile_device_user" name="x_snc_loaner_reque.mobile_device_user">ed573e439c8813007f449d2e205c8b64</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-07 19:27:47</sys_created_on>
+        <sys_id>ad573e439c8813007f449d2e205c8b66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ed573e439c8813007f449d2e205c8b64</sys_name>
+        <sys_package display_value="Loaner Request" source="x_snc_loaner_reque">e6a024e29c8013007f449d2e205c8b78</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">e6a024e29c8013007f449d2e205c8b78</sys_scope>
+        <sys_update_name>sys_embedded_help_role_ad573e439c8813007f449d2e205c8b66</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-07 19:27:47</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
